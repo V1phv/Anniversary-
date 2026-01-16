@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>One Year</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Inter:wght@300;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <section class="screen text">
+    <h1>One year ago</h1>
+  </section>
+
+  <section class="screen text">
+    <p>I didn’t know it then</p>
+  </section>
+
+  <section class="screen image">
+    <img src="photo1.jpg" alt="memory">
+  </section>
+
+  <section class="screen text">
+    <p>But you were about to become<br>my favorite person</p>
+  </section>
+
+  <section class="screen image">
+    <img src="photo2.jpg" alt="memory">
+  </section>
+
+  <section class="screen text">
+    <p>Thank you for choosing me<br>every single day</p>
+  </section>
+
+  <section class="screen gallery">
+    <img src="photo3.jpg">
+    <img src="photo4.jpg">
+    <img src="photo5.jpg">
+  </section>
+
+  <section class="screen letter">
+    <p>
+      A year with you taught me how safe love can feel.<br><br>
+      How quiet moments matter.<br>
+      How being myself is enough.<br><br>
+      I’m grateful for you — not just for the memories,<br>
+      but for the way you exist in my life.
+    </p>
+  </section>
+
+  <section class="screen text">
+    <h1>One year down<br>Forever to go</h1>
+    <p class="signature">— Your Name 🤍</p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>

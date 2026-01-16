@@ -1,0 +1,20 @@
+const screens = document.querySelectorAll('.screen');
+
+const observer = new IntersectionObserver(
+  entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.style.opacity = 1;
+        entry.target.style.transform = 'translateY(0)';
+      }
+    });
+  },
+  { threshold: 0.3 }
+);
+
+screens.forEach(screen => {
+  screen.style.opacity = 0;
+  screen.style.transform = 'translateY(20px)';
+  screen.style.transition = 'all 1.2s ease';
+  observer.observe(screen);
+});

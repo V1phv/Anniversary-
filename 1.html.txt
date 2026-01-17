@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>One Year With Shai</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Inter:wght@300;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- PASSWORD SCREEN -->
+<div id="lockscreen">
+  <h2>For Shai 🤍</h2>
+  <p>Enter our date</p>
+  <input type="password" id="password" placeholder="MMDDYY">
+  <button onclick="unlock()">Enter</button>
+</div>
+
+<!-- MUSIC -->
+<audio id="bg-music" loop>
+  <source src="song.mp3" type="audio/mpeg">
+</audio>
+
+<!-- MAIN CONTENT -->
+<div id="content">
+
+  <section class="screen text">
+    <h1>One year ago</h1>
+  </section>
+
+  <section class="screen text">
+    <p>January 19, 2024</p>
+  </section>
+
+  <section class="screen image">
+    <img src="photo1.jpg">
+  </section>
+
+  <section class="screen text">
+    <p>I didn’t know it then</p>
+  </section>
+
+  <section class="screen image">
+    <img src="photo2.jpg">
+  </section>
+
+  <section class="screen text">
+    <p>But you were about to become<br>my favorite person</p>
+  </section>
+
+  <section class="screen text">
+    <p><strong>Shai 🤍</strong><br>thank you for choosing me<br>every single day</p>
+  </section>
+
+  <section class="screen gallery">
+    <img src="photo3.jpg">
+    <img src="photo4.jpg">
+    <img src="photo5.jpg">
+  </section>
+
+  <section class="screen letter">
+    <p>
+      A year with you taught me how safe love can feel.<br><br>
+      How quiet moments matter.<br>
+      How being myself is enough.<br><br>
+      You make the ordinary feel meaningful,<br>
+      and the hard days softer just by being you.<br><br>
+      I’m grateful for you — always.
+    </p>
+  </section>
+
+  <section class="screen text">
+    <h1>One year down<br>Forever to go</h1>
+    <p class="signature">— Alpha 🤍</p>
+  </section>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
